@@ -13,7 +13,9 @@ include 'connection.php';
 </head>
 
 <body>
-
+    <?php
+    include 'components/navbar.html';
+    ?>
 </body>
 
 </html>

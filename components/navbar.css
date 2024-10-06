@@ -1,28 +1,26 @@
-
-
-.navbar {
+nav {
     background-color: #333;
     padding: 10px 20px;
 }
 
-.nav-links {
+nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
 }
 
-.nav-links li {
+nav li {
     margin-right: 20px;
 }
 
-.nav-links a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
     transition: background 0.3s;
 }
 
-.nav-links a:hover {
+nav a:hover {
     background-color: #555;
     border-radius: 5px;
 }

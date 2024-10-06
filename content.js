@@ -1,4 +1,3 @@
-
 const books = [
     {
         title: "Metode Penelitian Terapan",
@@ -54,4 +53,4 @@ const books = [
         imageUrl: "media/psikologi3.jpg",
         description: "A dystopian novel set in a totalitarian society, exploring themes of government control and surveillance."  
     },
-    {
+]

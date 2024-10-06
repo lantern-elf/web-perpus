@@ -19,3 +19,4 @@ function changeBackgroundImage() {
     // Pra-muat gambar
     const img = new Image();
     img
+}

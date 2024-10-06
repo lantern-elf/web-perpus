@@ -19,6 +19,8 @@ include 'connection.php';
     include 'components/navbar.html'; //Navbar
     include 'components/header.html'; //header
     ?>
+    <main>
+    </main>
 </body>
 
 </html>

@@ -28,23 +28,23 @@ include 'connection.php';
         <br>
 
         <label for="">Penerbit: </label><br>
-        <input type="text" name=""><br>
+        <input type="text" name="penerbit"><br>
         <br>
 
         <label for="">Tahun Terbit: </label><br>
-        <input type="text" name=""><br>
+        <input type="text" name="tahunTerbit"><br>
         <br>
 
         <label for="">Jumlah Halaman</label><br>
-        <input type="text" name=""><br>
+        <input type="text" name="jumlahHalaman"><br>
         <br>
 
         <label for="">Lokasi</label><br>
-        <input type="text" name=""><br>
+        <input type="text" name="lokasi"><br>
         <br>
 
         <label for="">Gambar: </label><br />
-        <input type="file" src="assets/1337310-200.png" alt="" name="gambar" width="64px" height="64px"><br>
+        <input type="file" name="gambar" src="assets/1337310-200.png" alt="" name="gambar" width="64px" height="64px"><br>
         <br>
 
         <input type="submit" value="Submit">

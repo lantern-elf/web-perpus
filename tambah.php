@@ -35,11 +35,11 @@ include 'connection.php';
         <input type="text" name="tahunTerbit"><br>
         <br>
 
-        <label for="">Jumlah Halaman</label><br>
+        <label for="">Jumlah Halaman:</label><br>
         <input type="text" name="jumlahHalaman"><br>
         <br>
 
-        <label for="">Lokasi</label><br>
+        <label for="">Lokasi:</label><br>
         <input type="text" name="lokasi"><br>
         <br>
 

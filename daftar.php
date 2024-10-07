@@ -11,15 +11,15 @@ include 'connection.php';
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/components/navbar.css">
     <link rel="stylesheet" href="/components/header.css">
-    <title>Home | Perpustakaan</title>
+    <title>Daftar Buku | Perpustakaan</title>
 </head>
 
 <body>
     <?php
     include 'components/navbar.html'; //Navbar
-    // include 'components/header.html'; //header
     ?>
     <main>
+
     </main>
 </body>
 

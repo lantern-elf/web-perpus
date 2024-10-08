@@ -1,14 +1,14 @@
 <?php
-$host = "localhost";
+$servername = "localhost";
 $username = "root";
 $password = "";
-$database = "basisperpustakaan";
+$dbName = "basisperpustakaan";
 
-$db = mysqli_connect($host, $username, $password, $database);
+// // Create connection
+// $conn = new mysqli($servername, $username, $password, $dbName);
 
-if ($db->connect_error) {
-    echo 'Koneksi rusak';
-    die();
-} else {
-    // echo 'koneksi berhasil';
-}
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+// echo "Connected successfully";

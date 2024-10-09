@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Buku Perpustakaan</title>
+    <link rel="stylesheet" href="koleksi.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Universitas Bina Darma</div>
+            <ul>
+                <li><a href="index.php">Beranda</a></li>
+                <li><a href="koleksi.html">Koleksi</a></li>
+                <li><a href="layanan.html">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-collection">
+            <h1>Koleksi Buku</h1>
+            <div class="filters">
+                <select id="genre-filter">
+                    <option value="">Semua Category</option>
+                    <option value="metode penelitian">Metode Penelitian</option>
+                    <option value="ilmu komputer">Ilmu Komputer</option>
+                    <option value="psikologi">Psikologi</option>
+                    <option value="sains">Sains</option>
+                </select>
+                <input type="text" id="search" placeholder="Cari judul atau penulis...">
+            </div>
+            <div class="book-grid">
+                <div class="book-card" data-genre="ilmu komputer">
+                    <img src="media/ilmu komputer1.jpg" alt="Buku 1">
+                    <h2>Pemrograman SQL Server 2019</h2>
+                    <p>Penulis: Ario Suryo Kusomo</p>
+                    <p>Category: Ilmu Komputer</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="metode penelitian">
+                    <img src="media/metode penelitian1.jpg" alt="Buku 2">
+                    <h2>Metode Penelitian Terapan</h2>
+                    <p>Penulis: Dr, Fristina irina, M.Pd</p>
+                    <p>Category: Metode Penelitian</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="psikologi">
+                    <img src="media/psikologi1.jpg" alt="Buku 3">
+                    <h2>Pengantar Psikologi Umum</h2>
+                    <p>Penulis: Sarlito W. Sarwono</p>
+                    <p>Category: Psikologi</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="sains">
+                    <img src="https://via.placeholder.com/150x200" alt="Buku 4">
+                    <h2>Judul Buku 4</h2>
+                    <p>Penulis: Nama Penulis</p>
+                    <p>Genre: Sains</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="ilmu komputer">
+                    <img src="media/ilmu komputer1.jpg" alt="Buku 1">
+                    <h2>Pemrograman SQL Server 2019</h2>
+                    <p>Penulis: Ario Suryo Kusomo</p>
+                    <p>Category: Ilmu Komputer</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="metode penelitian">
+                    <img src="media/metode penelitian1.jpg" alt="Buku 2">
+                    <h2>Metode Penelitian Terapan</h2>
+                    <p>Penulis: Dr, Fristina irina, M.Pd</p>
+                    <p>Category: Metode Penelitian</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="psikologi">
+                    <img src="media/psikologi1.jpg" alt="Buku 3">
+                    <h2>Pengantar Psikologi Umum</h2>
+                    <p>Penulis: Sarlito W. Sarwono</p>
+                    <p>Category: Psikologi</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <div class="book-card" data-genre="sains">
+                    <img src="https://via.placeholder.com/150x200" alt="Buku 4">
+                    <h2>Judul Buku 4</h2>
+                    <p>Penulis: Nama Penulis</p>
+                    <p>Genre: Sains</p>
+                    <a href="detail.php" class="btn">Detail</a>
+                </div>
+                <!-- Tambahkan lebih banyak buku di sini -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
